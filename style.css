@@ -1,0 +1,67 @@
+/* Reduce margin and padding for chart titles */
+.chart-title {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Reduce padding within the overall chart container */
+.flex-cell {
+  padding: 5px;
+}
+
+
+/* Reduce space above the chart title */
+.chart-title {
+  margin-top: 0px; 
+  padding-top: 0px;
+}
+
+/* Reduce space inside the chart box */
+.flex-cell {
+  padding: 2px; /* Adjust this value as needed */
+}
+
+.value-box {
+    height: 91px;
+    margin: 2px;
+    padding: 2px;
+    box-shadow: 8px 7px 4px rgba(133, 133, 133, 0.5);
+    margin-bottom: 2px;
+    margin-top: 2px;
+    }
+/* Decrease space between value and caption */
+.value-box .value {
+  line-height: 1;      /* Adjust the line height */
+  margin-bottom: -3px; /* Move the value closer to the caption */
+  font-size: 37px;
+}
+
+.value-box .caption {
+  margin-top: 0;
+  margin-bottom: 0;/* Remove the top margin from the caption */
+}    
+    
+.value-box .fa {
+      font-size: 4px; /* Adjust as desired */
+    }    
+    
+.panel-body {
+  padding: 0px !important; /* Reduce internal padding of panels */
+}
+.flex-panel {
+  margin-bottom: 0px !important; /* Reduce vertical margin between panels */
+}
+.chart-container { /* Replace with actual class/ID if needed */
+        margin-bottom: 0px; /* Adjust as desired */
+      }
+      
+.graph-container {
+  /* Use a linear gradient to create a shaded effect */
+  background: linear-gradient(
+    to bottom,
+    rgba(100, 210, 80, 0.2), /* Light green, transparent */
+    rgba(90, 165, 255, 0.2)  /* Light blue, transparent */
+  );
+  padding: 20px; /* Add padding for visual separation */
+  border-radius: 8px;
+}      
